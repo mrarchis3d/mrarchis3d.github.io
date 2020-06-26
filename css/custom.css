@@ -1,0 +1,160 @@
+/* ==========================================================================
+*
+* Custom CSS Stylesheet. This is where you should add your own styles!
+*
+** ========================================================================== */
+
+/* Simple style overrides or custom adds */
+
+.some-css-selector {font-size:13px;}
+
+.main-nav > ul > li.menu-item-has-children > a:after {
+    content:''; 
+    opacity: 1; 
+    position: absolute; 
+    height: 1px; width: 7px; 
+    bottom: 3px; left: 17px; 
+    background-color: rgba(255,255,255,.4); 
+    -webkit-transition:opacity .2s ease-in-out; 
+    transition:opacity .2s ease-in-out;}
+
+	.main-nav > ul > li > a:before {
+        background-color:#1f46a1;
+    }
+
+    /*** Header Height */
+.site-header,
+.logosize--contain .site-logo a {height: 150px;}
+.logosize--contain .site-logo .logo-img,
+.logosize--contain .site-logo .logo-img-sticky {max-height: 150px; vertical-align: middle;}
+.site-logo img {
+    max-height: 150px;
+    max-width: 100%;
+}
+.kl-title-block {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.process_steps--style2 .process_steps__intro {
+    background: #1f46a1;
+}
+.tcolor {
+    color: #56acb6 !important;
+}
+.kl-ios-selectors-block.bullets2 .item.selected::before, .kl-ios-selectors-block.bullets2 .item:hover:before {
+    background-color: #3bcae0;
+}
+.light-gray3 {
+    color: #1f46a1;
+}
+.imgboxes_style4 .imgboxes-title:after {
+    background: #3bcae0;
+}
+.imgboxes_style4 .imgboxes-title .hogar::after  {
+    background: #61e456;
+}
+#hogar:after {
+    background: #61e456;
+}
+#footer {
+    background: #092425;
+}
+.newsletter-signup input[type=submit] {
+    background: #56acb6;
+}
+
+#Beneficios{
+    position: relative;
+    align-items: center;
+}
+
+/* ==========================================================================
+** Responsive styles custom rules
+* These rules are ready to be used for either overrides
+* or just your own custom rules.
+========================================================================== */
+
+
+/** Higher screens+ **/
+@media only screen and (min-width : 1921px){
+
+}
+
+
+/** Desktop+ **/
+@media (min-width: 1200px) {
+
+}
+
+
+/** Laptop **/
+@media (max-width: 1200px) {
+
+}
+
+
+/** Laptop+ **/
+@media (min-width: 991px) {
+
+}
+
+
+/** Laptop **/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/** Large Tablets **/
+@media (max-width: 992px) {
+
+
+}
+
+
+/** Tablets (landscape mode)  **/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/** Tablets+  **/
+@media (min-width: 768px) {
+
+
+}
+
+
+/** Tablets (portrait mode)  **/
+@media (min-width : 481px) and (max-width : 768px) {
+
+}
+
+
+/** Smartphone landscape mode / Mini Tablet **/
+@media (max-width: 767px) {
+    .site-logo img {
+        max-height: 50px;
+        max-width: 100%;
+    }
+}
+
+
+/** Smartphone landscape mode / Mini Tablet **/
+@media (max-width: 600px) {
+
+}
+
+
+/** Smartphone portrait mode **/
+@media (max-width: 480px) {
+
+}
+
+
+/** Normal phone portrait mode+ **/
+@media (min-width: 320px) {
+    
+
+}
