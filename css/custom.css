@@ -22,6 +22,7 @@
         background-color:#1f46a1;
     }
 
+
     /*** Header Height */
 .site-header,
 .logosize--contain .site-logo a {height: 150px;}
@@ -157,4 +158,12 @@
 @media (min-width: 320px) {
     
 
+}
+@media (max-width: 767px){
+    .site-header, .site-header[data-header-style="2"], .site-header[data-header-style="4"], .site-header[data-header-style="5"] {
+        background-color: #FFFF;
+    }
+    body{
+        color: #fff
+    }
 }
