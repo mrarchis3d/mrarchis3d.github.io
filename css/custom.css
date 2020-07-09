@@ -69,7 +69,14 @@
     position: relative;
     align-items: center;
 }
-
+.header-navbar{
+    background-color: #fff;
+    height: 250px;
+    margin-bottom: 400px;
+}
+#Galeria001{
+    margin-top: 250px;
+}
 /* ==========================================================================
 ** Responsive styles custom rules
 * These rules are ready to be used for either overrides
@@ -139,6 +146,19 @@
         max-height: 50px;
         max-width: 100%;
     }
+    #Galeria001{
+        margin-top: 150px;
+    }
+    .header-navbar{
+        background-color: #fff;
+        height: 150px;
+    }
+    .site-header, .site-header[data-header-style="2"], .site-header[data-header-style="4"], .site-header[data-header-style="5"] {
+        background-color: #FFFF;
+    }
+    body{
+        color: #fff
+    }
 }
 
 
@@ -150,6 +170,13 @@
 
 /** Smartphone portrait mode **/
 @media (max-width: 480px) {
+    #Galeria001{
+        margin-top: 80px;
+    }
+    .header-navbar{
+        background-color: #fff;
+        height: 80px;
+    }
 
 }
 
@@ -158,12 +185,4 @@
 @media (min-width: 320px) {
     
 
-}
-@media (max-width: 767px){
-    .site-header, .site-header[data-header-style="2"], .site-header[data-header-style="4"], .site-header[data-header-style="5"] {
-        background-color: #FFFF;
-    }
-    body{
-        color: #fff
-    }
 }
