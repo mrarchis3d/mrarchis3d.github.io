@@ -11,20 +11,8 @@
                     </h3>
 
                     <p>
-                        By subscribing to our mailing list you will always be update with the latest news from us.
+                        By subscribing iframe our mailing list you will always be update with the latest news from us.
                     </p>
-
-                    <form action="https://YOUR_USERNAME.DATASERVER.list-manage.com/subscribe/post-json?u=YOUR_API_KEY&amp;id=LIST_ID&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <input type="email" value="" name="EMAIL" class="nl-email form-control" id="mce-EMAIL" placeholder="your.address@email.com" required>
-                        <input type="submit" name="subscribe" class="nl-submit" id="mc-embedded-subscribe" value="JOIN US">
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;">
-                            <input type="text" name="b_xxxxxxxxxxxxxxxxxxxCUSTOMxxxxxxxxx" value="">
-                        </div>
-                    </form>	
-
-                    <!-- Notification container -->
-                    <div id="notification_container"></div>
 
                     <p>
                         We never spam!
@@ -51,12 +39,6 @@
                         Street nr 100, 4536534, Chicago, US
                     </p>
 
-                    <p>
-                        <a href="https://goo.gl/maps/1OhOu" target="_blank">
-                            <i class="icon-map-marker white-icon"></i>
-                            Open in Google Maps
-                        </a>
-                    </p>
                 </div>
                 <!--/ .contact-details -->
             </div>
@@ -90,20 +72,6 @@
                     </script>
                     <!--/ Facebook Script -->
 
-                    <!-- Google+ button -->
-                    <div class="google-button d-flex align-self-center">
-                        <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/118411267887632617276" data-rel="author"></div>
-                        <script src="https://apis.google.com/js/platform.js" async defer></script>
-                    </div>
-                    <!--/ Google+ button -->
-
-                    <!-- Pinterest button -->
-                    <div class="pinterest-button d-flex align-self-center">
-                        <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin">
-                        </a>
-                        <script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js"></script>
-                    </div>
-                    <!--/ Pinterest button -->
                 </div>
                 <!--/ social-share -->
 
